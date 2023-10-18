@@ -174,7 +174,7 @@ class NanoBertForClassification(torch.nn.Module):
         super().__init__()
         self.nano_bert = NanoBERT(vocab_size, n_layers, n_heads, dropout, n_embed, max_seq_len)
 
-        self.classifier = torch.nn.Linear(in_features=n_embed, out_features=n_classes if n_classes > 2 else 1)
+        self.classifier = torch.nn.Linear(in_features=n_embed, out_features=n_classes)
 
     def forward(self, input_ids):
         embeddings = self.nano_bert(input_ids)
