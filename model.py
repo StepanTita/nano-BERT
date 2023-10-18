@@ -102,11 +102,10 @@ class BertLayer(torch.nn.Module):
     def __init__(self, n_heads=1, dropout=0.1, n_embed=3):
         super().__init__()
 
+        self.layer_norm1 = torch.nn.LayerNorm(n_embed)
         self.self_attention = BertSelfAttention(n_heads, dropout, n_embed)
 
-        self.layer_norm1 = torch.nn.LayerNorm(n_embed)
         self.layer_norm2 = torch.nn.LayerNorm(n_embed)
-
         self.feed_forward = FeedForward(dropout, n_embed)
 
     def forward(self, x, mask):
