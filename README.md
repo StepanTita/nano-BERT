@@ -116,16 +116,28 @@ max_seq_len = 128
 
 | Dataset                   | Accuracy | F-1 Score |
 |---------------------------|----------|-----------|
-| IMDB Sentiment (2-class)  | TBD      | TBD       |
-| HateXplain Data (2-class) | TBD      | TBD       |
+| IMDB Sentiment (2-class)  | 0.734    | 0.745     |
+| HateXplain Data (2-class) | 0.693    | 0.597     |
 
 ### Interpretation ⁉️:
 
 #### Attentions Visualized:
-...
+
+![Attention-IMDB-1](https://github.com/StepanTita/nano-BERT/assets/44279105/e25447cd-e6cf-48f9-8b43-870e0f5887e5)
+![Attention-IMDB-2](https://github.com/StepanTita/nano-BERT/assets/44279105/a8e5a256-1f48-4278-963d-b1818686436b)
+![Attention-IMDB-3](https://github.com/StepanTita/nano-BERT/assets/44279105/c32c7f02-3aae-4850-9bdf-e9b8b679d9c0)
+![Attention-IMDB-4](https://github.com/StepanTita/nano-BERT/assets/44279105/45919030-ce55-435a-9e2b-556a42f6c07d)
+
 
 #### Embeddings Visualized in 3D:
-...
+
+<img width="502" alt="Embeddings-3d-1" src="https://github.com/StepanTita/nano-BERT/assets/44279105/ceb24c65-b210-4a59-b69b-7d1ee98015f7">
+<img width="445" alt="Embeddings-3d-2" src="https://github.com/StepanTita/nano-BERT/assets/44279105/49319d39-052d-44d3-9ede-785a06986a1a">
+<img width="415" alt="Embeddings-3d-3" src="https://github.com/StepanTita/nano-BERT/assets/44279105/c0d6a62a-7868-49be-86b4-75d75f058fc3">
+<img width="347" alt="Embeddings-3d-4" src="https://github.com/StepanTita/nano-BERT/assets/44279105/fa29c671-a95d-4414-9a9e-e2113c677bc4">
+<img width="983" alt="Embeddings-3d-5" src="https://github.com/StepanTita/nano-BERT/assets/44279105/158fa412-462e-4eac-a217-dc73c819029a">
+
+
 
 _Note: see [demo.ipynb](demo.ipynb) and [imdb_demo.ipynb](imdb_demo.ipynb) for better examples_
 
