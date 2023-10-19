@@ -112,12 +112,21 @@ n_head = 1
 dropout = 0.1
 n_embed = 3
 max_seq_len = 128
+epochs = 200
+batch_size = 32
 ```
 
 | Dataset                   | Accuracy | F-1 Score |
 |---------------------------|----------|-----------|
 | IMDB Sentiment (2-class)  | 0.734    | 0.745     |
 | HateXplain Data (2-class) | 0.693    | 0.597     |
+
+**Result plots** IMDB:
+
+
+![accuracy-IMDB](https://github.com/StepanTita/nano-BERT/assets/44279105/a620690d-9561-42a2-9b8d-c257f717caad)
+![f1-IMDB](https://github.com/StepanTita/nano-BERT/assets/44279105/e1cdef99-854f-4354-9c5e-7fc9e769f15f)
+
 
 ### Interpretation ⁉️:
 
