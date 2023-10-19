@@ -1,6 +1,6 @@
 # nano-BERT
 
-![Attention is all you need transformer architecture](link/to/logo.png)
+<img width="1013" alt="transformers-2" src="https://github.com/StepanTita/nano-BERT/assets/44279105/10b80f59-04df-4c34-93d7-889252d0aefb">
 
 ### Nano-BERT: A Simplified and Understandable Implementation of BERT
 
